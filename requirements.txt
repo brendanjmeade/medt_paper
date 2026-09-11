@@ -1,0 +1,12 @@
+# Versions used to produce the paper figures (Python 3.13.3, macOS arm64).
+numpy>=2.0
+scipy>=1.14
+matplotlib>=3.9
+# Figures 9 and 10: JAX accelerates the mhf half-space kernels (numpy
+# fallback is identical but roughly ten times slower); numba is used by the
+# moss2 boundary element solver for Figure 10.
+jax>=0.4
+numba>=0.60
+# Optional: only needed for `python -m mhf.validate` (classical half-space
+# reference for the mhf kernels), not for any paper figure.
+# cutde

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX build artifacts (the PDFs in manuscript/figures/ are tracked on purpose)
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.synctex.gz
+manuscript/*.loc
+manuscript/*.soc
+manuscript/main.pdf
+
+# Scratch previews written by the compute scripts
+cache/*_preview.pdf

@@ -1,5 +1,7 @@
 # medt_paper
 
+Code cleaned, organized, and packaged by Claude Code
+
 Code, cached results, and manuscript source to reproduce every figure of
 
 > B. Meade, *Three dimensional non-singular mollified elastic dislocation
